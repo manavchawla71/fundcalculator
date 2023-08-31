@@ -1,0 +1,84 @@
+:root {
+	--primary-color: #f3f3f3;
+	--black-900: #1e2025;
+	--blue-600: #2563eb;
+	--black-800: #22252a;
+}
+
+body {
+	background-color: var(--black-800);
+	font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-weight: 200;
+    color: grey;
+    margin: 2rem 2rem;
+    padding: 0rem 4rem;
+    font-style: italic;
+}
+
+h1 {
+	margin-bottom: 2rem;
+	color: var(--primary-color);
+}
+
+main{
+    margin-top: 3rem;
+}
+
+label {
+    display: block;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+input {
+    display: block;
+	border: none;
+	background-color: var(--black-900);
+	padding: 1.4rem 1rem;
+	font-size: 0.8rem;
+	margin: 0rem auto 1rem auto;
+	width: 40%;
+	color: var(--primary-color);
+}
+
+button {
+	border: none;
+	background-color: var(--blue-600);
+	color: var(--primary-color);
+	font-weight: 700;
+	padding: 1.2rem;
+	text-transform: uppercase;
+	cursor: pointer;
+	width: 40%;
+	margin-top: 1rem;
+
+}
+
+#output-box {
+    width: 60%;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    background-color: #111827;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+    font-size: 22px;
+}
+
+img {
+    width: 25px;
+}
+
+a{
+    margin: 0.5rem 1rem;
+}
